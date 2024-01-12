@@ -1,0 +1,71 @@
+.etable-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .etable {
+    display: block;
+    overflow: hidden;
+    table-layout: fixed;
+    border-collapse: collapse;
+    box-shadow: 0px 3px 5px #ccc;
+    border-radius: 10px;
+    white-space: nowrap;
+    width: 100em;
+    max-width: 80%;
+    margin: auto;
+    table-layout: auto;
+    overflow-x: auto;
+  }
+  
+  .etable thead {
+    background-color: #ccc;
+    color: #222;
+  }
+  
+  .etable th,
+  .etable td {
+    padding: 0.8rem;
+  }
+  
+  .etable td {
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .etable tbody tr:hover {
+    background-color: #5ba7b1;
+  }
+  
+  .eexpand {
+    width: 30%;
+  }
+  
+  .elabel {
+    border-radius: 3px;
+    padding: 0.3rem;
+    color: white;
+  }
+  
+  .elabel-draft {
+    background-color: #777;
+  }
+  
+  .elabel-Active {
+    background-color: #42a942;
+  }
+  
+  .elabel-Inactive {
+    background-color: #d9534f;
+  }
+  
+  .eactions {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .eactions svg {
+    cursor: pointer;
+  }
+  

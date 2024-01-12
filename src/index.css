@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
+  /* Set the background size to cover the entire screen */
+  background-size: cover;
+  /* Set the width and height to cover the entire screen */
+  background-color: black; /* replace 'your-image-url.jpg' with the actual image URL or path */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: Fixed background when scrolling */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  text-decoration: none;
+}

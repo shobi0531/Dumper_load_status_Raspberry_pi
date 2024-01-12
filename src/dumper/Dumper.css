@@ -1,0 +1,15 @@
+.dumper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .btn {
+    margin-top: 1rem;
+    border: none;
+    background-color: #1d4ed8;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+  }

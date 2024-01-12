@@ -1,0 +1,70 @@
+.shtable-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .shtable {
+    display: block;
+    overflow: hidden;
+    table-layout: fixed;
+    border-collapse: collapse;
+    box-shadow: 0px 3px 3px #ccc;
+    border-radius: 10px;
+    white-space: nowrap;
+    width: 100em;
+    max-width: 80%;
+    margin: auto;
+    table-layout: auto;
+    overflow-x: auto;
+  }
+  
+  .shtable thead {
+    background-color: #ccc;
+    color: #222;
+  }
+  
+  .shtable th,
+  .shtable td {
+    padding: 0.8rem;
+  }
+  
+  .shtable td {
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .shtable tbody tr:hover {
+    background-color: #5ba7b1;
+  }
+  
+  .shexpand {
+    width: 100%;
+  }
+  
+  .shlabel {
+    border-radius: 3px;
+    padding: 0.3rem;
+    color: white;
+  }
+  
+  .shlabel-draft {
+    background-color: #777;
+  }
+  
+  .shlabel-Active {
+    background-color: #42a942;
+  }
+  
+  .shlabel-Inactive {
+    background-color: #d9534f;
+  }
+  
+  .dactions {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .shactions svg {
+    cursor: pointer;
+  }

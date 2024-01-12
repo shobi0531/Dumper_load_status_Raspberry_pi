@@ -1,0 +1,31 @@
+
+
+.pagedash h1 {
+  color: black !important;
+  margin: 0px;
+  padding: 0px;
+}
+
+.pageback {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background-color: #007bff;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.pageback:hover {
+  background-color: #0056b3;
+}
+
+.pagedash {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  
+}
+

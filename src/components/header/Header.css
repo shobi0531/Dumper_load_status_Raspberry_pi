@@ -1,0 +1,13 @@
+
+.pageHeader {
+  text-align: center;
+  position: relative;
+
+}
+
+.pagedash h1 {
+  color: white !important; /* Set the text color to black */
+  font-family: 'Crimson Pro';
+  font-size: 50px;
+}
+

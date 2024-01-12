@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    cursor: auto;
+    overflow: hidden;
+  }
+  .content{
+    text-decoration: none;
+    cursor: auto;
+  }
+  .row1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+  }
+  
+  .box {
+    border: 1px solid #000;
+    padding: 10px;
+    width: 200px;
+    height: 160px;
+    border: 2px solid #333333;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(52, 204, 204);
+    text-decoration: none;
+    margin-left: 35px;
+    transition: background-color 0.3s ease, cursor 0.3s ease, transform 0.3s ease; 
+    border-radius: 20px; 
+  }
+  
+  .box h2 {
+    text-align: center;
+    padding: 15px;
+    
+  }
+  
+  .box:hover {
+    background-color: #e7c84c;
+    cursor: pointer;
+    transform: scale(1.1); 
+  }
+  
+  .employeeimg img {
+    margin: 18px;
+    width: 45%;
+  }
+  
+  .shovelimg img {
+    margin: 10px;
+    width: 45%;
+  }
+  
+  .dailyreport img{
+    width: 40%;
+  }
+  
+  .report img{
+    margin: 10px;
+    width: 40%;
+  }
+  
+  .dumperimg img{
+    width: 50%;
+  }
+  
+  .dumperimg h2,.dailyreport h2,.shovelimg h2,.employeeimg h2,.report h2{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merienda';
+    color: black
+  }
+  .dailyreport h2{
+    width: 90%;
+    padding-left: 10px;
+  }
+
+  .box{
+    text-decoration: none;
+  }
